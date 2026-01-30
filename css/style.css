@@ -1,0 +1,444 @@
+@charset "UTF-8";
+/* フォント */
+.zen-maru-gothic-regular {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.zen-maru-gothic-bold {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+html, body {
+    font-family: "Zen Maru Gothic", sans-serif;
+}
+
+/* marginの初期化 */
+p, h1, h2, h3, h4, h5, h6{
+    margin-top: 0;
+}
+
+/* ヘッダー */
+header{
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+/* ロゴ */
+.logo{
+    float: left;
+    margin-top: 50px;
+    color: black;
+    font-family: "Zen Maru Gothic", sans-serif;
+}
+/* ロゴのリンクの色 */
+.logo a {
+    color: black;
+}
+
+/* body */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffe4e4;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.eyecatch{
+    width: 960px;
+    margin: 0 auto;
+    clear: both; /* floatの消去 */
+    text-align: center;
+}
+
+.eyecatch img{
+    width: 90%;
+    height: auto;
+    display: block;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+#wrap{
+    clear: both; /* floatの消去 */
+}
+
+.content{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#index p{
+    font-size: 16px;
+    font-family: "Zen Maru Gothic", sans-serif;
+    text-align: center;
+}
+
+#index h2{
+    font-family: "Zen Maru Gothic", sans-serif;
+    text-align: center;
+}
+
+#prepare img {
+    display: block;      /* 1. 画像をブロックとして扱う */
+    margin: 20px auto;   /* 2. 上下に20pxの隙間を作り、左右は自動（中央寄せ） */
+    max-width: 100%;     /* 3. 親要素からはみ出さないようにする */
+    height: auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: solid 1px black;
+  /*実線 1px 黒*/
+}
+
+table th{/*thに対して*/
+  color: #FF9800;/*文字色*/
+  background: #fff5e5;/*背景色*/
+}
+
+table td{
+    background: white;
+}
+
+#enjoying img {
+    display: block;      /* 1. 画像をブロックとして扱う */
+    margin: 20px auto;   /* 2. 上下に20pxの隙間を作り、左右は自動（中央寄せ） */
+    max-width: 100%;     /* 3. 親要素からはみ出さないようにする */
+    height: auto;
+}
+
+#restaurant img {
+    display: block;      /* 1. 画像をブロックとして扱う */
+    margin: 20px auto;   /* 2. 上下に20pxの隙間を作り、左右は自動（中央寄せ） */
+    max-width: 100%;     /* 3. 親要素からはみ出さないようにする */
+    height: auto;
+}
+
+#sightseeing img {
+    display: block;      /* 1. 画像をブロックとして扱う */
+    margin: 20px auto;   /* 2. 上下に20pxの隙間を作り、左右は自動（中央寄せ） */
+    max-width: 100%;     /* 3. 親要素からはみ出さないようにする */
+    height: auto;
+}
+
+#sightseeing iframe {
+    display: block;      /* 1. 画像をブロックとして扱う */
+    margin: 20px auto;   /* 2. 上下に20pxの隙間を作り、左右は自動（中央寄せ） */
+    max-width: 100%;     /* 3. 親要素からはみ出さないようにする */
+    text-align: center;  /* 4. 中央寄せ */
+}
+
+#happening .answer {
+    padding: 0 5px 0 5px;
+    background: #ffce82;
+    border-radius: 10px;
+}
+
+#happening img {
+    display: block;      /* 1. 画像をブロックとして扱う */
+    margin: 20px auto;   /* 2. 上下に20pxの隙間を作り、左右は自動（中央寄せ） */
+    max-width: 100%;     /* 3. 親要素からはみ出さないようにする */
+    height: auto;
+}
+
+#happening .carrycase {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    padding: 5px 2px;
+}
+
+#happening .message1 {
+    padding: 0 5px 0 5px;
+    background: #c4e1be;
+}
+
+#happening .message2 {
+    padding: 0 5px 0 5px;
+    background: #ffce82;
+}
+
+#foodculture img {
+    display: block;      /* 1. 画像をブロックとして扱う */
+    margin: 20px auto;   /* 2. 上下に20pxの隙間を作り、左右は自動（中央寄せ） */
+    max-width: 100%;     /* 3. 親要素からはみ出さないようにする */
+    height: auto;
+}
+
+#foodculture .center{
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    border-bottom: 1px solid #cccccc;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.icon:before {
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #c4e1be;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+/* セクション間のスペース */
+section{
+    margin-bottom: 36px;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* 訪問前後のリンク */
+a{
+    color: #3583aa;
+    text-decoration: none;
+}
+a:visited{
+    color: #788d98;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/* ナビゲーション */
+.grobal-nav{
+    float: right;
+    margin-top: 60px;
+}
+.grobal-nav li{
+    float: left;
+    margin: 0 20px;
+    font-size: 20px;
+    list-style: none;
+    font-family: "Zen Maru Gothic", sans-serif;
+}
+.grobal-nav li a{
+    color: #ffffff;
+}
+.grobal-nav li a:hover{
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+/* ボタン */
+.btn a{
+    background-color: #c4e1be;
+    font-size: 20px;
+    font-family: "Zen Maru Gothic", sans-serif;
+    width: 80%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.btn a:hover{
+    text-decoration: none;
+}
+
+/* ハンバーガーメニュー始まり */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background: #fff;
+}
+  
+/* チェックボックスを非表示にする */
+.drawer_hidden {
+  display: none;
+}
+
+/* ハンバーガーアイコンの設置スペース */
+.drawer_open {
+  display: flex;
+  height: 60px;
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 100;/* 重なり順を一番上にする */
+  cursor: pointer;
+}
+
+/* ハンバーガーメニューのアイコン */
+.drawer_open span,
+.drawer_open span:before,
+.drawer_open span:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 25px;
+  border-radius: 3px;
+  background: #333;
+  transition: 0.5s;
+  position: absolute;
+}
+
+/* 三本線の一番上の棒の位置調整 */
+.drawer_open span:before {
+  bottom: 8px;
+}
+
+/* 三本線の一番下の棒の位置調整 */
+.drawer_open span:after {
+  top: 8px;
+}
+
+/* アイコンがクリックされたら真ん中の線を透明にする */
+#drawer_input:checked ~ .drawer_open span {
+  background: rgba(255, 255, 255, 0);
+}
+
+/* アイコンがクリックされたらアイコンが×印になように上下の線を回転 */
+#drawer_input:checked ~ .drawer_open span::before {
+  bottom: 0;
+  transform: rotate(45deg);
+}
+
+#drawer_input:checked ~ .drawer_open span::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+  
+/* メニューのデザイン*/
+.nav_content {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 100%; /* メニューを画面の外に飛ばす */
+  z-index: 99;
+  background: #fff;
+  transition: .5s;
+  text-align: center;
+}
+
+/* メニュー黒ポチを消す */
+.nav_list {
+  list-style: none;
+}
+
+/* アイコンがクリックされたらメニューを表示 */
+#drawer_input:checked ~ .nav_content {
+  left: 0;/* メニューを画面に入れる */
+}
+
+/* ハンバーガーアイコンの設置スペースを固定 */
+.drawer_open {
+  display: flex;
+  height: 60px;
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+  
+  /* --- ここから修正・追加 --- */
+  position: fixed;    /* 画面に対して固定 */
+  top: 10px;          /* 画面上部からの位置 */
+  right: 10px;        /* 画面右側からの位置（左がよければ left に変更） */
+  /* ----------------------- */
+  
+  z-index: 100;       /* 一番手前に表示 */
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.8); /* スクロール時に見えやすいよう背景を少し付けると◎ */
+  border-radius: 5px;
+}
+
+/* ハンバーガーメニュー終わり */
+
+/* フッター */
+footer{
+    text-align: center;
+    color: rgb(38, 38, 38);
+    clear: both;
+    padding: 20px 0;
+}
+
+footer small{
+    font-size: 12px;
+}
+
+/* レスポンシブデザイン */
+@media screen and (max-width:600px) {
+    /* 画面サイズが600px以下の場合に適用 */
+
+    body {
+        font-size: 3.5vw;
+    }
+
+    h1 {
+        font-size: 5.5vw;
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+
+    header {
+        width: auto;
+        margin: 0 5%;
+    }
+
+    .logo {
+        float: none;
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    #wrap {
+        margin-top: 5px;
+    }
+
+    .content{
+        width: 100%;
+    }
+
+    .main-center {
+        float: none;
+        width: auto;
+        margin: 0 5%;
+    }
+
+    .eyecatch {
+        width: 100%;
+        margin: 0 auto;
+        clear: both; /* floatの消去 */
+        text-align: center;
+    }
+
+    .img{
+        width: 100%;
+        text-align: center;
+    }
+
+    /* すべてのページのiframe（マップ）を横幅100%にする */
+    .content iframe {
+        width: 100% !important; /* HTMLの width="600" を無視させる */
+        height: 400px;          /* 縦幅を大きくするとより見やすくなります */
+        border: 0;
+        margin: 20px 0;         /* 左右のmarginを0にする */
+    }
+
+}
